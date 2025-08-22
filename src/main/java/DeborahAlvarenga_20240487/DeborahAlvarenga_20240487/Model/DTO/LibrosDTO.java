@@ -3,12 +3,17 @@ package DeborahAlvarenga_20240487.DeborahAlvarenga_20240487.Model.DTO;
 
 // En el DTO no se necesita agregar ninguna anotacion en especifico, como e el entity o las demas
 
-import jakarta.persistence.Column;
+
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.Size;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
 
+
+@Getter @Setter @ToString @EqualsAndHashCode
 public class LibrosDTO {
 
     private Long id;
