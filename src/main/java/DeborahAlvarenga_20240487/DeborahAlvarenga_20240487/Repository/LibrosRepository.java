@@ -1,4 +1,7 @@
 package DeborahAlvarenga_20240487.DeborahAlvarenga_20240487.Repository;
 
-public interface LibrosRepository {
+import DeborahAlvarenga_20240487.DeborahAlvarenga_20240487.Entities.LibrosEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface LibrosRepository extends JpaRepository<LibrosEntity, Long> {
 }

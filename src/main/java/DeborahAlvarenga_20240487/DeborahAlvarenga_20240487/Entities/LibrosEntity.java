@@ -1,4 +1,4 @@
-package DeborahAlvarenga_20240487.DeborahAlvarenga_20240487.Entity;
+package DeborahAlvarenga_20240487.DeborahAlvarenga_20240487.Entities;
 
 import jakarta.persistence.*;
 import lombok.EqualsAndHashCode;
@@ -36,3 +36,4 @@ public class LibrosEntity {
 
 
 }
+
